@@ -110,8 +110,8 @@ def analyze_mutual_information_vs_parameters():
     Analyze how mutual information varies with β and g parameters
     """
     # Parameter ranges
-    beta_vals = np.linspace(0.01, 100, 100)  # 0.01 to 100
-    g_vals = np.linspace(0, 2, 10)  # 0 to 2
+    beta_vals = np.linspace(0.01, 100, 51)  # 0.01 to 100
+    g_vals = np.linspace(0, 2, 51)  # 0 to 2
 
     results = {}
 
