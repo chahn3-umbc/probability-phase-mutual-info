@@ -9,7 +9,7 @@ markers = ['o', 's', 'D', '^']
 
 plt.figure()
 for i, n in enumerate(N_vals):
-    df = pd.read_csv(f'deep_thermalization_analysis/processed_data/mutual_info_data_N={n}.csv')
+    df = pd.read_csv(f'deep_thermalization_analysis/ED_analysis_results/Projected Ensemble N={n}/mutual_info_data.csv')
     x = df['$-\log(\epsilon)$']
     y = df['Results']
 
